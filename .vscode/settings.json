@@ -1,0 +1,34 @@
+{
+    // PHP Configuration
+    "php.validate.enable": true,
+    "php.validate.run": "onType",
+    
+    // PHP_CodeSniffer configuration
+    "phpcs.enable": true,
+    "phpcs.standard": "phpcs.xml",
+    
+    // PHP CS Fixer configuration
+    "php-cs-fixer.executablePath": "${workspaceFolder}/vendor/bin/php-cs-fixer",
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.rules": "@PSR12",
+    "php-cs-fixer.config": ".php-cs-fixer.php",
+    
+    // Format on save
+    "[php]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    
+    // File associations
+    "files.associations": {
+        "*.php": "php"
+    },
+    
+    // Exclude patterns for search
+    "files.exclude": {
+        "**/.git": true,
+        "**/vendor": true,
+        "**/storage/framework": true,
+        "**/bootstrap/cache": true
+    }
+}
