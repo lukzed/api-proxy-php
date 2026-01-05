@@ -1,7 +1,7 @@
 {
     "recommendations": [
         "junstyle.php-cs-fixer",
-        "ikappas.phpcs",
+        // "ikappas.phpcs",
         "bmewburn.vscode-intelephense-client",
         "xdebug.php-debug"
     ]

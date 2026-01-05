@@ -11,6 +11,7 @@ $finder = PhpCsFixer\Finder::create()
     ->ignoreVCS(true);
 
 $config = new PhpCsFixer\Config();
+
 return $config->setRules([
         '@PSR12' => true,
         'array_syntax' => ['syntax' => 'short'],
@@ -35,5 +36,12 @@ return $config->setRules([
             'on_multiline' => 'ensure_fully_multiline',
         ],
         'single_trait_insert_per_statement' => true,
+        'no_extra_blank_lines' => [
+            'tokens' => ['extra', 'throw', 'use'],
+        ],
+        'braces_position' => [
+            'functions_opening_brace' => 'same_line',
+            'classes_opening_brace' => 'next_line_unless_newline_at_signature_end',
+        ],
     ])
     ->setFinder($finder);
