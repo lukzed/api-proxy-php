@@ -21,7 +21,8 @@ class ApiHelper
 
         if ($benchInfo) {
             $includedFiles = get_included_files();
-            $time_REQUEST_TIME_FLOAT = number_format(microtime(true) - $_SERVER['REQUEST_TIME_FLOAT'], 5);
+            $requestStartTime = $_SERVER['REQUEST_TIME_FLOAT'] ?? microtime(true);
+            $time_REQUEST_TIME_FLOAT = number_format(microtime(true) - $requestStartTime, 5);
             $baseResponse["time"] = $time_REQUEST_TIME_FLOAT;
             $baseResponse["includedFiles"] = count($includedFiles);
         }
