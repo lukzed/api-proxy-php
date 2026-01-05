@@ -47,7 +47,7 @@ class ApiHelper
     public static function loginErrorResponse($options = []) {
         $options = [
             "additionalData" => [
-                "message" => "Authentication Error.",
+                "message" => "Authentication failed",
                 "code" => APP_ERROR_AUTH_ERROR,
             ],
             "responseCode" => 401,
