@@ -20,14 +20,6 @@
         "*.php": "php"
     },
     
-    // Exclude patterns for search
-    "files.exclude": {
-        "**/.git": true,
-        // "**/vendor": true,
-        "**/storage/framework": true,
-        "**/bootstrap/cache": true
-    },
-    
     // Intelephense configuration - allow vendor for intellisense
     "intelephense.files.exclude": [
         "**/.git/**",
