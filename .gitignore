@@ -16,3 +16,4 @@ Thumbs.db
 /storage/framework/views/*
 /bootstrap/cache/*
 !.gitkeep
+php-cs-fixer-wrapper.sh
