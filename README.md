@@ -4,10 +4,17 @@ A PHP API proxy (headless) project built using the Lumen framework.
 
 This is a lightweight API proxy built with Lumen (Laravel micro-framework). It provides a simple REST API structure without database or view management.
 
-## Installation 
+## Usage in applications
 
+1. Install as dependency
 ```bash
 composer require luk-z/api-proxy-php
+```
+
+
+2. Copy the environment file:
+```bash
+cp .env.example .env
 ```
 
 ### Required `define`
@@ -36,14 +43,15 @@ cd project_name
 
 2. Install suggested vscode extensions
 
-3. Install dependencies:
+3. Copy the `php-cs-fixer-wrapper.sh` file:
+```bash
+cp php-cs-fixer-wrapper.sh.example php-cs-fixer-wrapper.sh
+```
+change `WORKSPACE_ROOT="<absolute path to your workspace>"` inserting the application absolute path
+
+4. Install dependencies:
 ```bash
 composer install
-```
-
-4. Copy the environment file:
-```bash
-cp .env.example .env
 ```
 
 ### Running the Application
