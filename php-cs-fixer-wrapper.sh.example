@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# FIXME: move into separate library
+
 # Get the workspace root directory
 WORKSPACE_ROOT="<absolute path to your workspace>"
 TEMP_DIR="/var/folders"

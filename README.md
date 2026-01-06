@@ -47,7 +47,7 @@ cd project_name
 ```bash
 cp php-cs-fixer-wrapper.sh.example php-cs-fixer-wrapper.sh
 ```
-change `WORKSPACE_ROOT="<absolute path to your workspace>"` inserting the application absolute path
+change `WORKSPACE_ROOT="<absolute path to your workspace>"` inserting the application absolute path (use `pwd` command to obtain absolute path)
 
 4. Install dependencies:
 ```bash
