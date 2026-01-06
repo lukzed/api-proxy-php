@@ -1,5 +1,7 @@
 <?php
 
+// FIXME: move into separate library, code sniffer not needed
+
 $finder = PhpCsFixer\Finder::create()
     ->in(__DIR__)
     ->exclude('vendor')

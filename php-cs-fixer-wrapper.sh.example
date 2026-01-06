@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# FIXME: move into separate library
+# FIXME: move into separate library, code sniffer not needed
 
 # Get the workspace root directory
 WORKSPACE_ROOT="<absolute path to your workspace>"
