@@ -138,7 +138,7 @@ $app->router->group([
 */
 
 $customIncludesPath = defined("APP_CUSTOM_INCLUDES_PATH") ? APP_CUSTOM_INCLUDES_PATH : null;
-if ($customIncludesPath) {
+if ($customIncludesPath && file_exists($customIncludesPath)) {
     include_once $customIncludesPath;
 }
 
