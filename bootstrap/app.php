@@ -121,7 +121,7 @@ $app->router->group([
     require __DIR__ . '/../routes/web.php';
 
     $customRoutesPath = defined("APP_CUSTOM_ROUTES_PATH") ? APP_CUSTOM_ROUTES_PATH : null;
-    if ($customRoutesPath) {
+    if ($customRoutesPath && file_exists($customRoutesPath)) {
         require $customRoutesPath;
     }
 });
