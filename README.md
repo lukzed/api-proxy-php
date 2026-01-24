@@ -13,6 +13,10 @@ This is a lightweight API proxy built with Lumen (Laravel micro-framework). It p
 composer require luk-z/api-proxy-php
 ```
 
+2. Add custom includes
+To add custom Controllers and Routes just define these constants:
+- 
+
 
 2. Copy the environment file:
 ```bash
@@ -25,9 +29,9 @@ In order to work the following php define should be defined:
 - APP_TABLE_APPS
 
 These php defined are optional
-- APP_ADD_DEFAULT_ROUTES
-- APP_CUSTOM_INCLUDES_PATH
-- APP_CUSTOM_ROUTES_PATH
+- `APP_ADD_DEFAULT_ROUTES`: add default hello world and test routes 
+- `APP_CUSTOM_INCLUDES_PATH`
+- `APP_CUSTOM_ROUTES_PATH`
 
 ## Requirements
 
