@@ -12,6 +12,8 @@ abstract class TestCase extends BaseTestCase
      * @return \Laravel\Lumen\Application
      */
     public function createApplication() {
+        require_once __DIR__ . '/../tests/constants.php';
+
         return require __DIR__ . '/../bootstrap/app.php';
     }
 }
