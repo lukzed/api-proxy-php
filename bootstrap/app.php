@@ -6,11 +6,6 @@
 // Load application constants
 require_once __DIR__ . '/../app/constants.php';
 
-// Load test constants if in testing environment
-// if (env('APP_ENV') === 'testing' && file_exists(__DIR__ . '/../tests/constants.php')) {
-//     require_once __DIR__ . '/../tests/constants.php';
-// }
-
 (new Laravel\Lumen\Bootstrap\LoadEnvironmentVariables(
     dirname(__DIR__)
 ))->bootstrap();
