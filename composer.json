@@ -10,7 +10,7 @@
             "email": "lucagcc@gmail.com"
         }
     ],
-    "homepage": "https://github.com/Luk-z/api-proxy-php",
+    "homepage": "https://github.com/lukzed/api-proxy-php",
     "readme": "README.md",
     "require": {
         "php": "^7.3|^8.0",

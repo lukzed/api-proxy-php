@@ -44,11 +44,11 @@ These php defined are optional
 
 To install dependencies php 7.3+ and composer are needed. Instead installing them in the local machine use a dockerized composer (requires Docker Desktop).
 
-Create `php` and `composer` aliases following [this guide](https://github.com/Luk-z/dockerized-composer).
+Create `php` and `composer` aliases following [this guide](https://github.com/lukzed/dockerized-composer).
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Luk-z/api-proxy-php.git project_name && rm -rf ./project_name/.git
+git clone https://github.com/lukzed/api-proxy-php.git project_name && rm -rf ./project_name/.git
 cd project_name
 ```
 
